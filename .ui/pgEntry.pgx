@@ -1,0 +1,83 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "e291-2994-c40b-7a69",
+			"initialized": true,
+			"themeProps": {
+				"Page": "Default"
+			},
+			"userProps": {
+				"flexProps": {
+					"justifyContent": "SPACE_AROUND",
+					"alignItems": "CENTER"
+				}
+			},
+			"className": ".page",
+			"version": "6.5.2",
+			"props": {
+				"name": "pgEntry",
+				"children": [
+					"2e9d-dcc8-f3a5-6398",
+					"4ac9-c7e8-3c7b-bba6",
+					"4e8e-d965-8560-f62b"
+				],
+				"parent": null,
+				"orientation": "PORTRAIT"
+			}
+		},
+		{
+			"type": "StatusBar",
+			"id": "2e9d-dcc8-f3a5-6398",
+			"themeProps": {
+				"StatusBar": "Default"
+			},
+			"userProps": {},
+			"className": ".statusBar",
+			"props": {
+				"name": "statusBar",
+				"children": [],
+				"parent": "e291-2994-c40b-7a69",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "4ac9-c7e8-3c7b-bba6",
+			"themeProps": {
+				"HeaderBar": "Default"
+			},
+			"userProps": {
+				"title": "Entry"
+			},
+			"className": ".headerBar",
+			"props": {
+				"name": "headerBar",
+				"title": "Entry",
+				"children": [],
+				"parent": "e291-2994-c40b-7a69",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "Button",
+			"id": "4e8e-d965-8560-f62b",
+			"themeProps": {
+				"Sizes": "Default",
+				"Highlights": "Default"
+			},
+			"userProps": {
+				"usePageVariable": true,
+				"text": "AMCharts"
+			},
+			"className": ".button",
+			"props": {
+				"name": "btnAmCharts",
+				"text": "AMCharts",
+				"usePageVariable": true,
+				"children": [],
+				"parent": "e291-2994-c40b-7a69"
+			}
+		}
+	]
+}

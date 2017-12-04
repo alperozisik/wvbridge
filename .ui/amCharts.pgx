@@ -1,0 +1,215 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "d738-aa22-2216-5591",
+			"initialized": true,
+			"themeProps": {
+				"Page": "Default"
+			},
+			"userProps": {},
+			"className": ".page",
+			"version": "6.5.2",
+			"props": {
+				"name": "amCharts",
+				"children": [
+					"bf34-91aa-02e4-cae4",
+					"f1a7-1ad9-3b8b-8008",
+					"2570-5ff2-ac5d-847e"
+				],
+				"parent": null,
+				"orientation": "PORTRAIT"
+			}
+		},
+		{
+			"type": "StatusBar",
+			"id": "bf34-91aa-02e4-cae4",
+			"themeProps": {
+				"StatusBar": "Default"
+			},
+			"userProps": {},
+			"className": ".statusBar",
+			"props": {
+				"name": "statusBar",
+				"children": [],
+				"parent": "d738-aa22-2216-5591",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "f1a7-1ad9-3b8b-8008",
+			"themeProps": {
+				"HeaderBar": "Default"
+			},
+			"userProps": {
+				"title": "amCharts"
+			},
+			"className": ".headerBar",
+			"props": {
+				"name": "headerBar",
+				"title": "amCharts",
+				"children": [],
+				"parent": "d738-aa22-2216-5591",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "2570-5ff2-ac5d-847e",
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": null,
+				"height": null,
+				"left": 0,
+				"right": 0,
+				"bottom": 0,
+				"top": 0,
+				"flexProps": {
+					"positionType": "ABSOLUTE",
+					"alignItems": "CENTER",
+					"justifyContent": "CENTER"
+				}
+			},
+			"className": ".flexLayout",
+			"props": {
+				"name": "flWeb",
+				"children": [
+					"19c6-beed-9100-6c0f",
+					"de7f-eae9-d2b8-7f44",
+					"dc87-ced1-9758-9e0e",
+					"1ed0-534a-86d5-692b",
+					"f1eb-c097-a598-3985"
+				],
+				"parent": "d738-aa22-2216-5591"
+			}
+		},
+		{
+			"type": "WebView",
+			"id": "19c6-beed-9100-6c0f",
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"left": 0,
+				"right": 0,
+				"bottom": 0,
+				"top": 0,
+				"width": null,
+				"height": null,
+				"usePageVariable": true,
+				"visible": false,
+				"flexProps": {
+					"positionType": "ABSOLUTE"
+				}
+			},
+			"className": ".webView",
+			"props": {
+				"name": "webView",
+				"usePageVariable": true,
+				"children": [],
+				"parent": "2570-5ff2-ac5d-847e"
+			}
+		},
+		{
+			"type": "ActivityIndicator",
+			"id": "de7f-eae9-d2b8-7f44",
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"usePageVariable": true
+			},
+			"className": ".activityIndicator",
+			"props": {
+				"name": "aiWait",
+				"usePageVariable": true,
+				"children": [],
+				"parent": "2570-5ff2-ac5d-847e"
+			}
+		},
+		{
+			"type": "WebView",
+			"id": "dc87-ced1-9758-9e0e",
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"left": 0,
+				"right": 0,
+				"bottom": 0,
+				"top": 0,
+				"width": null,
+				"height": null,
+				"usePageVariable": true,
+				"visible": false,
+				"flexProps": {
+					"positionType": "ABSOLUTE"
+				}
+			},
+			"className": ".webView",
+			"props": {
+				"name": "webView_1",
+				"usePageVariable": true,
+				"children": [],
+				"parent": "2570-5ff2-ac5d-847e"
+			}
+		},
+		{
+			"type": "WebView",
+			"id": "1ed0-534a-86d5-692b",
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"left": 0,
+				"right": 0,
+				"bottom": 0,
+				"top": 0,
+				"width": null,
+				"height": null,
+				"usePageVariable": true,
+				"visible": false,
+				"flexProps": {
+					"positionType": "ABSOLUTE"
+				}
+			},
+			"className": ".webView",
+			"props": {
+				"name": "webView_2",
+				"usePageVariable": true,
+				"children": [],
+				"parent": "2570-5ff2-ac5d-847e"
+			}
+		},
+		{
+			"type": "WebView",
+			"id": "f1eb-c097-a598-3985",
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"left": 0,
+				"right": 0,
+				"bottom": 0,
+				"top": 0,
+				"width": null,
+				"height": null,
+				"usePageVariable": true,
+				"visible": false,
+				"flexProps": {
+					"positionType": "ABSOLUTE"
+				}
+			},
+			"className": ".webView",
+			"props": {
+				"name": "webView_3",
+				"usePageVariable": true,
+				"children": [],
+				"parent": "2570-5ff2-ac5d-847e"
+			}
+		}
+	]
+}
