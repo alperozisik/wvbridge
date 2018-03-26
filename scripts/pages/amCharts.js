@@ -21,7 +21,7 @@ const wvb = extend(wvbDesign)(
             setTimeout(function() {
                 console.log("timeout"); //alper
                 wvb.evaluateJS(chartScript, function(value) {
-                    console.log(`callback: ${decodeURIComponent(value)}`);
+                    alert(`callback: ${decodeURIComponent(value)}`);
                     page.webView.visible = true;
                     page.aiWait.visible = false;
                 });
@@ -60,11 +60,15 @@ module && (module.exports = wvb);
 
 const chartScript = `
 document.body.style.backgroundColor = "yellow";
-document.documentElement.outerHTML
-// typeof AmCharts
-// var AmCharts = AmCharts;
-// document.body.style.backgroundColor = typeof AmCharts === "undefined? "black": "green";
+// document.documentElement.outerHTML
+var x = typeof AmCharts;
+var AmCharts = AmCharts;
+try {
+document.body.style.backgroundColor = typeof AmCharts !== "udefined" ? "red" : "blue";
+} catch(eer) {}
 // document.body.innerText = !!AmCharts;
+x = encodeURIComponent(document.head.innerText);
+x
 // try{
 // AmCharts.makeChart("chartdiv", {
 //     "type": "serial",

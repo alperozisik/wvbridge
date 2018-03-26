@@ -1,82 +1,69 @@
 {
 	"components": [
 		{
-			"type": "Page",
+			"className": ".page",
 			"id": "e291-2994-c40b-7a69",
 			"initialized": true,
-			"themeProps": {
-				"Page": "Default"
+			"props": {
+				"children": [
+					"2e9d-dcc8-f3a5-6398",
+					"4ac9-c7e8-3c7b-bba6",
+					"4e8e-d965-8560-f62b"
+				],
+				"name": "pgEntry",
+				"orientation": "PORTRAIT",
+				"parent": null
 			},
+			"type": "Page",
 			"userProps": {
 				"flexProps": {
 					"justifyContent": "SPACE_AROUND",
 					"alignItems": "CENTER"
 				}
 			},
-			"className": ".page",
-			"version": "6.5.2",
-			"props": {
-				"name": "pgEntry",
-				"children": [
-					"2e9d-dcc8-f3a5-6398",
-					"4ac9-c7e8-3c7b-bba6",
-					"4e8e-d965-8560-f62b"
-				],
-				"parent": null,
-				"orientation": "PORTRAIT"
-			}
+			"version": "6.6.3"
 		},
 		{
-			"type": "StatusBar",
-			"id": "2e9d-dcc8-f3a5-6398",
-			"themeProps": {
-				"StatusBar": "Default"
-			},
-			"userProps": {},
 			"className": ".statusBar",
+			"id": "2e9d-dcc8-f3a5-6398",
 			"props": {
-				"name": "statusBar",
 				"children": [],
-				"parent": "e291-2994-c40b-7a69",
-				"isRemovable": false
-			}
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "e291-2994-c40b-7a69"
+			},
+			"type": "StatusBar",
+			"userProps": {}
 		},
 		{
-			"type": "HeaderBar",
+			"className": ".headerBar",
 			"id": "4ac9-c7e8-3c7b-bba6",
-			"themeProps": {
-				"HeaderBar": "Default"
-			},
-			"userProps": {
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "e291-2994-c40b-7a69",
 				"title": "Entry"
 			},
-			"className": ".headerBar",
-			"props": {
-				"name": "headerBar",
-				"title": "Entry",
-				"children": [],
-				"parent": "e291-2994-c40b-7a69",
-				"isRemovable": false
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Entry"
 			}
 		},
 		{
-			"type": "Button",
-			"id": "4e8e-d965-8560-f62b",
-			"themeProps": {
-				"Sizes": "Default",
-				"Highlights": "Default"
-			},
-			"userProps": {
-				"usePageVariable": true,
-				"text": "AMCharts"
-			},
 			"className": ".button",
+			"id": "4e8e-d965-8560-f62b",
 			"props": {
-				"name": "btnAmCharts",
-				"text": "AMCharts",
-				"usePageVariable": true,
 				"children": [],
-				"parent": "e291-2994-c40b-7a69"
+				"name": "btnAmCharts",
+				"parent": "e291-2994-c40b-7a69",
+				"text": "AMCharts",
+				"usePageVariable": true
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "AMCharts",
+				"usePageVariable": true
 			}
 		}
 	]
